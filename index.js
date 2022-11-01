@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     return
 });
 
-mongoose.connect('mongodb+srv://megaatony:foimal2022@cluster.ixk9ogi.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://megatony:foimal@generic.a5tmm0g.mongodb.net/?retryWrites=true&w=majority')
     .then(() => {
         console.log('Chegamos ao DB!')
         app.listen(3008)
